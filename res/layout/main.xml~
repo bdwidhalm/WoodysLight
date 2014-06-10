@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/radial_background"
+      >
+    
+    <com.google.ads.AdView android:id="@+id/adViewMain"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           ads:adUnitId="ca-app-pub-7773256712936597/8871469827"
+                           ads:adSize="BANNER"/>
+    
+    <ImageButton
+        android:id="@+id/btnSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dip"
+        android:src="@drawable/btn_switch_on"
+        android:background="@null"
+        android:contentDescription="@null"
+        android:onClick="lightSwitch"
+        android:layout_gravity="center" />
+        
+</LinearLayout>
+
